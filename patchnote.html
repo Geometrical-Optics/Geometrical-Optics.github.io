@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
@@ -21,9 +22,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background: var(--bs-gray-900);color: var(--bs-highlight-bg);">
+<body style="background: var(--bs-gray-900);">
     <header>
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark pulse animated py-3">
             <div class="container"><a class="navbar-brand d-flex align-items-center" data-bss-hover-animate="jello" href="https://github.com/Geometrical-Optics/"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="62.000000pt" height="60.000000pt" viewBox="0 0 62.000000 60.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -56,29 +57,35 @@ fill="#000000" stroke="none">
                         <li class="nav-item"></li>
                         <li class="nav-item"><a class="nav-link" href="apropos.html">À propos de nous</a></li>
                         <li class="nav-item"><a class="nav-link" href="documents.html">Documents</a></li>
-                    </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="background: red;border: yellow;">Download</a>
+                    </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="background-color: red;border-color: yellow;">Download</a>
                 </div>
             </div>
         </nav>
-    </header>
-    <main>
-        <h1 style="color: white;text-align: center;">Documents</h1>
-        <p style="text-align: center;">Les différents cahiers des charges et plans de soutenance sont disponibles&nbsp; ci-dessous</p>
-        <div class="container">
+    </header><a href="assets/css/patch.css" rel="stylesheet"></a>
+    <main class="pulse animated" style="background: var(--bs-gray-900);">
+        <div class="container py-5">
+            <div class="row text-center text-white mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4">Patch Note</h1>
+                    <p class="lead mb-0">Voici les différentes modifications que nous avons apporté à ce projet lors des différentes soutenances</p>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-md-4" style="text-align: center;">
-                    <h1 class="h4" style="color: white;text-align: center;">Cahier des Charges</h1><a href="cahier_des_charges_fr.pdf"><img data-bss-hover-animate="wobble" src="assets/img/Documents/cdc.png" style="backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px);filter: blur(0px) contrast(90%);"></a>
-                </div>
-                <div class="col-md-4" style="text-align: center;">
-                    <h1 class="h4" style="color: white;text-align: center;">Rapports de Soutenance</h1><a href="rapport_de_soutenance_1_fr.pdf"><img data-bss-hover-animate="wobble" src="assets/img/Documents/Rapport_de_soutenance_1_fr.png" style="filter: contrast(90%);"></a>
-                </div>
-                <div class="col-md-4" style="text-align: center;">
-                    <h1 class="h4" style="color: white;text-align: center;">Plans de Soutenance</h1><a href="plan_de_soutenance_1_fr.pdf"><img data-bss-hover-animate="wobble" src="assets/img/Documents/Plan_de_soutenance_1_fr.png" style="filter: contrast(90%) grayscale(0%) saturate(100%);transform: perspective(0px) rotate(0deg) scale(1) skew(0deg);"></a>
+                <div class="col-lg-7 mx-auto">
+                    <ul class="timeline">
+                        <li class="bg-white shadow timeline-item rounded ml-3 p-4">
+                            <div class="timeline-arrow"></div><h2 class="h5 mb-0">Soutenance 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>20 Avril, 2023</span><p class="text-small mt-2 font-weight-light">Seconde présentation du projet, le moteur est articulé et malgré certains retards, il est possible de créer un jeu avec Héphaïstos.</p>
+                        </li>
+                        <li class="bg-white shadow timeline-item rounded ml-3 p-4">
+                            <div class="timeline-arrow"></div><h2 class="h5 mb-0">Soutenance 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>8 Mars, 2023</span><p class="text-small mt-2 font-weight-light">Première présentation du projet, le moteur était encore désarticulé, mais la soutenance s'est bien passée.</p><p class="text-small mt-2 font-weight-light">P.S. : Il vaut mieux présenter le projet et faire des démonstrations complètes qu'un PowerPoint (à faire seulement en cas d'urgence) <br>
+Note : 16.70</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="text-center bg-dark" style="padding-top: 0px;">
+    <footer style="text-align: center;background: var(--bs-gray-900);">
         <div class="container text-white py-4 py-lg-5"><img src="assets/img/logo.png" style="width: 15%;height: 20%;padding-bottom: 40px;padding-top: 40px;">
             <ul class="list-inline">
                 <li class="list-inline-item me-4"><a class="link-light" href="https://github.com/Geometrical-Optics/">Web design</a></li>
@@ -98,7 +105,6 @@ fill="#000000" stroke="none">
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
 </body>
 
