@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
@@ -24,8 +23,8 @@
 
 <body style="background: var(--bs-gray-900);">
     <header>
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
-            <div class="container"><a class="navbar-brand d-flex align-items-center" data-bss-hover-animate="jello" href="https://github.com/Geometrical-Optics/"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        <nav class="navbar navbar-dark navbar-expand-md py-3">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="https://github.com/Geometrical-Optics/"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="62.000000pt" height="60.000000pt" viewBox="0 0 62.000000 60.000000"
  preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,60.000000) scale(0.100000,-0.100000)"
@@ -49,15 +48,15 @@ fill="#000000" stroke="none">
 -8 -73 -9 -7 -41 -11 -83 -9 l-68 3 -3 33 c-6 58 0 62 82 62 58 0 75 -3 80
 -16z"/>
 </g>
-</svg></span><span>Héphaïstos</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+</svg></span><span>Héphaïstos</span></a><button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="explications.html">Explications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="wiki.html">Explications</a></li>
                         <li class="nav-item"></li>
-                        <li class="nav-item"><a class="nav-link" href="apropos.html">À propos de nous</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">À propos de nous</a></li>
                         <li class="nav-item"><a class="nav-link" href="documents.html">Documents</a></li>
-                    </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="background: #ff0000;border-color: yellow;">Download</a>
+                    </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="background-color: var(--bs-yellow);border-color: yellow;"><span style="color: navy;">Téléchargement</span></a>
                 </div>
             </div>
         </nav>
@@ -78,7 +77,7 @@ fill="#000000" stroke="none">
                             </svg></div>
                         <div class="px-3">
                             <h4>Explications</h4>
-                            <p>Ici, vous trouverez tout ce dont vous avez besoin pour comprendre ce qu'est le Raycasting :)</p><a href="explications.html">Pour Plus</a>
+                            <p>Ici, vous trouverez tout ce dont vous avez besoin pour comprendre ce qu'est le Raycasting :)</p><a href="wiki.html">Pour Plus</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +86,7 @@ fill="#000000" stroke="none">
                         <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><i class="icon ion-android-contacts"></i></div>
                         <div class="px-3">
                             <h4>À propos de nous</h4>
-                            <p>Ici, vous trouverez toutes les informations sur les Disciples d'Héphaïstos</p><a href="apropos.html">Pour Plus</a>
+                            <p>Ici, vous trouverez toutes les informations sur les Disciples d'Héphaïstos</p><a href="about.html">Pour Plus</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +111,7 @@ fill="#000000" stroke="none">
                                 <path d="M216.1 408.1C207.6 418.3 192.4 418.3 183 408.1L119 344.1C109.7 335.6 109.7 320.4 119 311C128.4 301.7 143.6 301.7 152.1 311L200 358.1L295 263C304.4 253.7 319.6 253.7 328.1 263C338.3 272.4 338.3 287.6 328.1 296.1L216.1 408.1zM128 0C141.3 0 152 10.75 152 24V64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0zM400 192H48V448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192z"></path>
                             </svg></div>
                         <div class="px-3">
-                            <h4>Patch Note</h4>
+                            <h4>Note des soutenances</h4>
                             <p>Ici, vous trouverez les différents changements apportés au projet et suivre son avancée</p><a href="patchnote.html">Pour Plus</a>
                         </div>
                     </div>
@@ -129,18 +128,11 @@ fill="#000000" stroke="none">
             </ul>
             <ul class="list-inline">
                 <li class="list-inline-item me-4"><a href="https://github.com/Geometrical-Optics/"><i id="github-logo" class="fab fa-github"></i></a></li>
-                <li class="list-inline-item me-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter text-light">
-                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
-                    </svg></li>
-                <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram text-light">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                    </svg></li>
             </ul>
             <p class="text-muted mb-0">Copyright © 2023 G.O.</p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
 </body>
 
